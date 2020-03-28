@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+.container {
+  font-family: "Roboto", sans-serif;
+  max-width: 400px;
+  margin: auto;
+  background-color: darkcyan;
+  padding: 50px;
+  border-radius: 10px;
+  border: 2px solid;
+  opacity: 0.9;
+  box-shadow: 0 5px 20px 0 white;
+}
+button {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  color: black;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 20px;
+  border: 2px solid;
+  transition-duration: 0.4s;
+  box-shadow: 0 2px 16px 0 black;
+  width: 100%;
+  outline: none;
+}
+
+button:hover {
+  background-color: green;
+  color: black;
+  box-shadow: 0 8px 16px 0 black;
+}
+button:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h1 {
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+}
+input {
+  width: 100%;
+  display: block;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 25px;
+  color: black;
+  box-shadow: 0 8px 16px 0 black;
+  outline: none;
+}
+input:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
